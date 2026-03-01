@@ -1,0 +1,14 @@
+# Rosalind用：データファイルは上げない
+*.txt
+
+# Python：実行時に生成される一時ファイル
+__pycache__/
+*.py[cod]
+
+# OS：Windows/Mac両方のシステムファイルを念のため無視
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Jupyter / Anaconda：ノートブックの一時保存ファイル
+.ipynb_checkpoints/
